@@ -20,6 +20,8 @@ build/
 .venv/
 venv/
 env/
+pip-log.txt
+pip-delete-this-directory.txt
 
 # Docker
 .dockerignore
@@ -28,12 +30,20 @@ env/
 logs/
 *.log
 
+# Generated data files (do not commit)
+*.csv
+*.json.bak
+*.tmp
+
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # IDE
 .vscode/
 .idea/
 *.suo
 *.user
+*.swp
+*.swo
